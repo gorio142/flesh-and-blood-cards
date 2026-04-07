@@ -66,3 +66,11 @@ validate_json ../../json-schema/card-flattened-schema.json ../../json/spanish/ca
 validate_json ../../json-schema/keyword-schema.json ../../json/spanish/keyword.json
 validate_json ../../json-schema/set-schema.json ../../json/spanish/set.json
 validate_json ../../json-schema/type-schema.json ../../json/spanish/type.json
+
+validate_json ../../json-schema/ability-schema.json ../../json/japanese/ability.json
+validate_json ../../json-schema/artist-schema.json ../../json/japanese/artist.json
+validate_json ../../json-schema/card-schema.json ../../json/japanese/card.json
+validate_json ../../json-schema/card-flattened-schema.json ../../json/japanese/card-flattened.json
+validate_json ../../json-schema/keyword-schema.json ../../json/japanese/keyword.json
+validate_json ../../json-schema/set-schema.json ../../json/japanese/set.json
+validate_json ../../json-schema/type-schema.json ../../json/japanese/type.json

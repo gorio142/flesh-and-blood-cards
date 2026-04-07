@@ -101,6 +101,7 @@ def generate_all_table_data(conn = None, url_for_images = None):
     generate_non_english_table_data(cur, "german")
     generate_non_english_table_data(cur, "italian")
     generate_non_english_table_data(cur, "spanish")
+    generate_non_english_table_data(cur, "japanese")
 
     cur.close()
     print("Finished generating table data")

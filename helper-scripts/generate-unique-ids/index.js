@@ -23,6 +23,7 @@ await Promise.allSettled([
     generators.generateCardPrintingUniqueIds("german", 0, 4, 7, 9, 10),
     generators.generateCardPrintingUniqueIds("italian", 0, 4, 7, 9, 10),
     generators.generateCardPrintingUniqueIds("spanish", 0, 4, 7, 9, 10),
+    generators.generateCardPrintingUniqueIds("japanese", 0, 4, 7, 9, 10),
 
     generators.generateSetUniqueIds("english", 0, 1, 2),
 
@@ -31,6 +32,7 @@ await Promise.allSettled([
     generators.generateSetPrintingUniqueIds("german", 0, 1, 3, 4),
     generators.generateSetPrintingUniqueIds("italian", 0, 1, 3, 4),
     generators.generateSetPrintingUniqueIds("spanish", 0, 1, 3, 4),
+    generators.generateSetPrintingUniqueIds("japanese", 0, 1, 3, 4),
 
     generators.generateAbilityUniqueIds("english", 0, 1),
 

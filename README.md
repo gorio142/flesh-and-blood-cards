@@ -57,6 +57,7 @@ This data set currently supports the following languages:
 - French
 - German
 - Italian
+- Japanese
 - Spanish
 
 In this data set, English is considered the "default" language. All cards, keywords, types, etc. should be added in English first (for sets, this is even if the set has never been printed in English). These are all contained within the `english/` subfolders of the `json/` and `csvs/`.

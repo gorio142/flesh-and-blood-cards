@@ -133,6 +133,8 @@ def convert_generalized_keyword_data_to_language_text(language, generalized_card
                 keyword = f"{keyword} di {extracted_specialization_hero_data}"
             case "spanish":
                 keyword = f"{keyword} de {extracted_specialization_hero_data}"
+            case "japanese":
+                keyword = f"{extracted_specialization_hero_data}の{keyword}"
             case _:
                 print(f"ERROR: Cannot currently handle keyword specialization formatting for {language}")
                 exit()

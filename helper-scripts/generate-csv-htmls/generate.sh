@@ -51,3 +51,11 @@ $CMD ../../csvs/spanish/card-printing.csv ../../web/csvs/spanish/card-printing.h
 $CMD ../../csvs/spanish/keyword.csv ../../web/csvs/spanish/keyword.html -d $'\t' -q $'"' -o
 $CMD ../../csvs/spanish/set-printing.csv ../../web/csvs/spanish/set-printing.html -d $'\t' -q $'"' -o
 $CMD ../../csvs/spanish/type.csv ../../web/csvs/spanish/type.html -d $'\t' -q $'"' -o
+
+$CMD ../../csvs/japanese/ability.csv ../../web/csvs/japanese/ability.html -d $'\t' -q $'"' -o
+$CMD ../../csvs/japanese/artist.csv ../../web/csvs/japanese/artist.html -d $'\t' -q $'"' -o
+$CMD ../../csvs/japanese/card.csv ../../web/csvs/japanese/card.html -d $'\t' -q $'"' -o
+$CMD ../../csvs/japanese/card-printing.csv ../../web/csvs/japanese/card-printing.html -d $'\t' -q $'"' -o
+$CMD ../../csvs/japanese/keyword.csv ../../web/csvs/japanese/keyword.html -d $'\t' -q $'"' -o
+$CMD ../../csvs/japanese/set-printing.csv ../../web/csvs/japanese/set-printing.html -d $'\t' -q $'"' -o
+$CMD ../../csvs/japanese/type.csv ../../web/csvs/japanese/type.html -d $'\t' -q $'"' -o

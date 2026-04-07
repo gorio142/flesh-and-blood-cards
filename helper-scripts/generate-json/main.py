@@ -31,6 +31,12 @@ if not exists(english_json_dir_path):
     print(english_json_dir_path + " does not exist, creating it")
     makedirs(english_json_dir_path)
 
+for language in ("french", "german", "italian", "spanish", "japanese"):
+    language_json_dir_path = json_dir_path + language + "/"
+    if not exists(language_json_dir_path):
+        print(language_json_dir_path + " does not exist, creating it")
+        makedirs(language_json_dir_path)
+
 # English JSON files #
 generate_json_file.ability.generate_json_file("english")
 generate_json_file.artist.generate_json_file("english")
@@ -66,36 +72,43 @@ generate_json_file.artist.generate_json_file("french")
 generate_json_file.artist.generate_json_file("german")
 generate_json_file.artist.generate_json_file("italian")
 generate_json_file.artist.generate_json_file("spanish")
+generate_json_file.artist.generate_json_file("japanese")
 
 generate_json_file.ability.generate_json_file("french")
 generate_json_file.ability.generate_json_file("german")
 generate_json_file.ability.generate_json_file("italian")
 generate_json_file.ability.generate_json_file("spanish")
+generate_json_file.ability.generate_json_file("japanese")
 
 generate_json_file.keyword.generate_json_file("french")
 generate_json_file.keyword.generate_json_file("german")
 generate_json_file.keyword.generate_json_file("italian")
 generate_json_file.keyword.generate_json_file("spanish")
+generate_json_file.keyword.generate_json_file("japanese")
 
 generate_json_file.set.generate_json_file("french")
 generate_json_file.set.generate_json_file("german")
 generate_json_file.set.generate_json_file("italian")
 generate_json_file.set.generate_json_file("spanish")
+generate_json_file.set.generate_json_file("japanese")
 
 generate_json_file.type.generate_json_file("french")
 generate_json_file.type.generate_json_file("german")
 generate_json_file.type.generate_json_file("italian")
 generate_json_file.type.generate_json_file("spanish")
+generate_json_file.type.generate_json_file("japanese")
 
 # These rely on the other Non-English JSON files being generated first
 generate_json_file.card_non_english.generate_json_file("french")
 generate_json_file.card_non_english.generate_json_file("german")
 generate_json_file.card_non_english.generate_json_file("italian")
 generate_json_file.card_non_english.generate_json_file("spanish")
+generate_json_file.card_non_english.generate_json_file("japanese")
 
 generate_json_file.card_flattened.generate_json_file("french")
 generate_json_file.card_flattened.generate_json_file("german")
 generate_json_file.card_flattened.generate_json_file("italian")
 generate_json_file.card_flattened.generate_json_file("spanish")
+generate_json_file.card_flattened.generate_json_file("japanese")
 
 print("Finished generating JSON data")
